@@ -13,7 +13,9 @@ header {
     border: 2px solid black;
 }
 
-
+i {
+    color: white;
+}
 
 .container-main {
     display: flex;
@@ -32,13 +34,12 @@ figure {
 
 img {
     max-width: 300px;
-    /* padding: 5px; */
 }
 
 footer {
-    max-width: 1080px;
+    display: flex;
     padding: 0 20px;
     margin: 0 auto;
-
-    border: 2px solid green;
+    background-color: rgb(26, 25, 25);
+    color: white;
 }
