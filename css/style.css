@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    display: flex;
+    padding: 0 20px;
+    margin: 0 auto;
+    background-color: orange;
+
+    border: 2px solid black;
+}
+
+
+
+.container-main {
+    max-width: 1080px;
+    padding: 0 20px;
+    margin: 0 auto;
+
+    border: 2px solid red;
+}
+
+
+
+
+footer {
+    max-width: 1080px;
+    padding: 0 20px;
+    margin: 0 auto;
+
+    border: 2px solid green;
+}
