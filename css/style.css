@@ -16,15 +16,24 @@ header {
 
 
 .container-main {
+    display: flex;
     max-width: 1080px;
+    flex-wrap: wrap;
     padding: 0 20px;
     margin: 0 auto;
 
     border: 2px solid red;
 }
 
+figure {
+    padding: 5px;
+    padding-bottom: 10px;
+}
 
-
+img {
+    max-width: 300px;
+    /* padding: 5px; */
+}
 
 footer {
     max-width: 1080px;
