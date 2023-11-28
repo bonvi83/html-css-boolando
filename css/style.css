@@ -8,9 +8,9 @@ header {
     display: flex;
     padding: 0 20px;
     margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
     background-color: orange;
-
-    border: 2px solid black;
 }
 
 i {
@@ -40,6 +40,9 @@ footer {
     display: flex;
     padding: 0 20px;
     margin: 0 auto;
+    height: 70px;
     background-color: rgb(26, 25, 25);
     color: white;
+    justify-content: space-between;
+    align-items: center;
 }
