@@ -42,16 +42,19 @@ img {
 }
 
 .firstfig {
-    position: relative;
+    display: block;
 }
 
 .secondfig {
     display: none;
-    position: absolute;
 }
 
-.secondfig:hover {
-    display: inline-block;
+figure:hover .firstfig {
+    display: none;
+}
+
+figure:hover .secondfig {
+    display: block;
 }
 
 footer {
