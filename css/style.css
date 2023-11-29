@@ -4,13 +4,18 @@
     box-sizing: border-box;
 }
 
-header {
+.containerheader {
     display: flex;
     padding: 0 20px;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
     background-color: orange;
+    padding-left: 200px;
+}
+
+.header-icone {
+    padding-right: 170px;
 }
 
 i {
@@ -34,6 +39,19 @@ figure {
 
 img {
     max-width: 300px;
+}
+
+.firstfig {
+    position: relative;
+}
+
+.secondfig {
+    display: none;
+    position: absolute;
+}
+
+.secondfig:hover {
+    display: inline-block;
 }
 
 footer {
